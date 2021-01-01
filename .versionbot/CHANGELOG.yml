@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'docs: change unicode to ascii double quotes'
+      hash: ae7443e243dbd7cbb9f1a1f06836090f19ba52e7
+      body: |
+        update the unicode quotes to ascii so copy and paste works
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+  version: 3.4.6
+  date: 2021-01-01T18:41:31.112Z
+- commits:
     - subject: 'docs: change to svg deploy with balena button'
       hash: 3c341465bb403748b9bfdfd6e26221c0f273803d
       body: |
