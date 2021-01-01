@@ -1,4 +1,40 @@
 - commits:
+    - subject: 'docs: add alternative dt overlay setting option'
+      hash: c4654acc7732047e5a199d8e603b8ebda99601f2
+      body: |
+        add screenshot and description of alternative dt overlay option
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add screenshot'
+      hash: 4b37b671cdcb24d89f3c651537b6d682ddc7d3fd
+      body: |
+        add screenshot of dtoverlay config
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add link to dac2 hd debugging issue'
+      hash: 4d1841d9f6330236ee01165a588ada0d250a025c
+      body: >
+        add link to issue where debugging for dac2 hd occured and was
+        subsequently fixed
+      footer:
+        Change-type: patch
+        change-type: patch
+        Connects-to: '#377'
+        connects-to: '#377'
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
     - subject: 'docs: change to svg deploy with balena button'
       hash: 3c341465bb403748b9bfdfd6e26221c0f273803d
       body: |
@@ -38,7 +74,7 @@
       author: Aaron Shaw
       nested: []
   version: 3.4.5
-  date: 2021-01-01T17:51:40.610Z
+  date: 2021-01-01T20:57:28.395Z
 - commits:
     - subject: 'spotify: fix linear volume control issue'
       hash: 21105d4664346f5e3a1e6260fe09da59ba8b5a5c

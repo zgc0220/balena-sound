@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 # v3.4.5
 ## (2021-01-01)
 
+* docs: add alternative dt overlay setting option [Aaron Shaw]
+* docs: add screenshot [Aaron Shaw]
+* docs: add link to dac2 hd debugging issue [Aaron Shaw]
 * docs: change to svg deploy with balena button [Aaron Shaw]
 * docs: add link to supported dacs [Aaron Shaw]
 * docs: add various dacs that have been tested [Aaron Shaw]
