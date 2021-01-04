@@ -1,4 +1,115 @@
 - commits:
+    - subject: 'docs: fix link to architecture page'
+      hash: f5acc312012bc9c083c2c06c8175e5d46745d2bf
+      body: |
+        fix link in balena-sound.pa file
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add link to audio interfaces'
+      hash: 70fedcdf8969dede1e1dfa91da4d68df6d23b0fe
+      body: |
+        add link to audio interfaces
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add various links'
+      hash: aa6b06a1f856554d56e90c3076e47a07094daa46
+      body: |
+        add various links for documentation
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add various links to docs'
+      hash: 73ff8e22b963f7eaf30c38c9a5657d66e80526d2
+      body: |
+        add various links to other docs pages
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add device support link'
+      hash: 48a12b1b7f7af7a4fa2621ec42834fd3b1e6d929
+      body: |
+        add link to device support page
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: typo fix'
+      hash: 13d74db822b66df0fbe9abbdb647e7bac43fbf2e
+      body: |
+        minor typo fix
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: fix link to architecture page'
+      hash: fd1348d07e3a728960a6c08ec844274911eb4e3f
+      body: |
+        fix broken link to architecture page
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: add link to architecture'
+      hash: 81c99b016b8d808b9232b5ebe79abc8e0523fae1
+      body: |
+        add link to architecture page
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+    - subject: 'docs: various updates to documentation'
+      hash: 111afdfbf11ec53059257930396869d679c877a4
+      body: >
+        - update the unicode quotes to ascii so copy and paste works
+
+        - add link to dac2 hd debugging issue
+
+        - add link to issue where debugging for dac2 hd occured and was
+        subsequently fixed
+
+        - add screenshot and description of alternative dt overlay option
+      footer:
+        Connects-to: '#377'
+        connects-to: '#377'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+  version: 3.4.6
+  date: 2021-01-04T00:02:05.471Z
+- commits:
     - subject: 'docs: change to svg deploy with balena button'
       hash: 3c341465bb403748b9bfdfd6e26221c0f273803d
       body: |
