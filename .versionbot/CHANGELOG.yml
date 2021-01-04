@@ -1,4 +1,27 @@
 - commits:
+    - subject: 'docs: various updates to documentation'
+      hash: 111afdfbf11ec53059257930396869d679c877a4
+      body: >
+        - update the unicode quotes to ascii so copy and paste works
+
+        - add link to dac2 hd debugging issue
+
+        - add link to issue where debugging for dac2 hd occured and was
+        subsequently fixed
+
+        - add screenshot and description of alternative dt overlay option
+      footer:
+        Connects-to: '#377'
+        connects-to: '#377'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+  version: 3.4.6
+  date: 2021-01-04T02:22:54.592Z
+- commits:
     - subject: 'docs: change to svg deploy with balena button'
       hash: 3c341465bb403748b9bfdfd6e26221c0f273803d
       body: |
