@@ -1,4 +1,17 @@
 - commits:
+    - subject: test
+      hash: 4639672a8437a70088a2cd90ca02ddbff283d52a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+  version: 3.5.3
+  date: 2021-03-08T15:25:31.247Z
+- commits:
     - subject: 'multiroom: fix snapcast version'
       hash: eef82e73a67a3e46d8901042ffc42fca64284549
       body: |
