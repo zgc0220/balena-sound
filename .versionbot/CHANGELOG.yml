@@ -1,4 +1,22 @@
 - commits:
+    - subject: 'upnp: Use gmrender-resurrect in place of gmrender'
+      hash: 78b9cc58a1f1000f9eb635c12b6fd32192a05e0c
+      body: |
+        Ubuntu packages
+            https://github.com/hzeller/gmrender-resurrect
+        an updated more stable fork of gmrender
+      footer:
+        Connects-to: '#342'
+        connects-to: '#342'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: jody@gnome.org
+        signed-off-by: jody@gnome.org
+      author: Jody Goldberg
+      nested: []
+  version: 3.5.4
+  date: 2021-05-13T20:55:45.631Z
+- commits:
     - subject: 'hub: add open fleets metadata'
       hash: 3482c113754b2f6ea72c6b6c589dc7252a7adeca
       body: ''
