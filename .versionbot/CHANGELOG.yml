@@ -1,4 +1,19 @@
 - commits:
+    - subject: 'docs: Add upgrade instructions to docs'
+      hash: 5a0bd2c8c04191839d705381a88c38d1ce5e84dc
+      body: ''
+      footer:
+        Connects-to: '#434'
+        connects-to: '#434'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Roddie Hasan <roddie@krweb.net>
+        signed-off-by: Roddie Hasan <roddie@krweb.net>
+      author: Roddie Hasan
+      nested: []
+  version: 3.6.1
+  date: 2021-05-28T16:07:31.281Z
+- commits:
     - subject: Add logging service
       hash: b976df6558b0ff2fb0bf111e2e7f498e980778b6
       body: ''
