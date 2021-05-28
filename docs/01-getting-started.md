@@ -62,8 +62,19 @@ For example, if you don't plan on using the Spotify integration, you can edit th
 
 - Install the [balena CLI tools](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md)
 - Login with `balena login`
-- Download this [project](https://github.com/balenalabs/balena-sound/) and from the project directory run `balena push <appName>` where `<appName>` is the name you gave your balenaCloud application in the first step.
+- Download this [project](https://github.com/balenalabs/balena-sound/) and from the project directory run `balena push <appName>` where `<appName>` is the name you gave your balenaCloud application in the first step. 
 
+## CLI upgrade
+
+### Upgrading the application
+
+To deploy bug fixes or new features to your balenaSound application, the process is the same as a deployment: 
+
+- Install the [balena CLI tools](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md)
+- Login with `balena login`
+- Download this [project](https://github.com/balenalabs/balena-sound/) and from the project directory run `balena push <appName>` where `<appName>` is the name you gave your balenaCloud application during the provision step above. 
+
+> **Note:** If you receive the message "Application is ambiguous" during the push, then you will need to specify your balenaCloud username along with the `<appName>`, ie. `balena push <username>/<appName>`
 ## Having trouble?
 
 If you are running into issues getting your balenaSound application running, please try the following:
