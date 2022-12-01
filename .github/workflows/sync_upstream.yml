@@ -1,0 +1,40 @@
+name: Sync branches
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 */8 * * *'
+
+jobs:
+
+  sync_latest_from_upstream:
+    runs-on: ubuntu-latest
+    name: Sync latest commits from upstream repo
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          fetch-depth: 0
+          lfs: true
+          token: ${{ secrets.SEC_TOKEN }}
+
+      - name: Set git identity
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Load upstream commits
+        env:
+          UPSTREAM_BRANCH: master
+          UPSTREAM_REPO: balena-labs-projects/balena-sound
+        run: |
+          git remote add upstream https://github.com/$UPSTREAM_REPO
+          git fetch upstream
+          git rebase upstream/$UPSTREAM_BRANCH
+
+      - name: Push Commits
+        env:
+          DOWNSTREAM_BRANCH: master
+        run: git push --force-with-lease --follow-tags --tags origin $DOWNSTREAM_BRANCH
