@@ -1,8 +1,6 @@
 name: Sync all branches
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '20 */8 * * *'
 
 jobs:
 
