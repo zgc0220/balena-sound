@@ -1,6 +1,11 @@
 name: "Deploy to Balena"
 
 on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
   pull_request:
     types: [opened, synchronize, closed]
     branches:
@@ -13,7 +18,7 @@ on:
   workflow_dispatch:
 
 env:
-  BALENA_APP: balenalabs/balenasound
+  BALENA_APP: gh_zgc/balena-sound
 
 jobs:
   build:
